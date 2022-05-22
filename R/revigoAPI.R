@@ -1,7 +1,3 @@
-library(httr)
-library(jsonlite)
-library(stringi)
-
 #' ReviGO output
 #'
 #' Run the Revigo algorithm on a set of GO terms
