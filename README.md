@@ -4,7 +4,7 @@ Install package
 
 ```
 library(devtools) # Make sure that the devtools library is loaded
-install_github("StirlingCodingClub/SCC_R_package");
+install_github("zroger49/revigoR");
 ```
 
 
