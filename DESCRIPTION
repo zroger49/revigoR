@@ -1,0 +1,5 @@
+Package: revigoR
+Type: Package
+Title: Revigo API in R
+Version: 0.0.1.0
+RoxygenNote: 7.1.2
