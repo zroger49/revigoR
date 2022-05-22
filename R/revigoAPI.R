@@ -38,7 +38,7 @@ revigo <- function(data, namespace = '1', cutoff = 0.7, speciesTaxon = "9606", m
   
   dat <- httr::content(res, encoding = "UTF-8")
   
-  jobid <- fromJSON(dat,bigint_as_char=TRUE)$jobid
+  jobid <- jsonlite::fromJSON(dat,bigint_as_char=TRUE)$jobid
   
   
   running <- "1"
