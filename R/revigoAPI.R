@@ -65,7 +65,7 @@ revigo <- function(data, namespace = '1', cutoff = 0.7, speciesTaxon = "9606", m
   dat3 <- httr::content(res3, encoding = "UTF-8")
   
   # Write results to a file
-  dat3 <- stri_replace_all_fixed(dat3, "\r", "")
+  dat3 <- stringi::stri_replace_all_fixed(dat3, "\r", "")
   
   
   cat(dat3, file = temp_file_name, fill = FALSE, sep = ",")
